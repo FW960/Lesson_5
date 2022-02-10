@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DaBoASb+v8NW5gPN16WFN4lL+atBN3wNQjJj0XBtJWcZ1kmePf2VrJnv16koYWXKP/5HeDhPEgqc6jmnfihLsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\windo\\source\\repos\\Lesson_5\\Lesson_5\\Lesson_5\\Lesson_5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\windo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\windo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\windo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\windo\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\windo\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
