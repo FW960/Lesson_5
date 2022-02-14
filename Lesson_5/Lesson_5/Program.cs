@@ -10,7 +10,19 @@ namespace Lesson_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string creatingExampleDir = @"C:\Users\windo\exampleDir";
+
+            Directory.CreateDirectory(creatingExampleDir);
+
+            string FileText = "Something";
+
+            string creatingAFile = Path.Combine(creatingExampleDir, "SecondFirstFile.txt");
+
+            DateTime FileCreationgTime = File.GetCreationTime(creatingAFile);
+
+            string FileCreationTimeString = FileCreationgTime.ToString();
+
+            File.WriteAllText(creatingAFile, FileCreationTimeString);
         }
     }
 }
