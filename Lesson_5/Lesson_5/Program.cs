@@ -10,7 +10,15 @@ namespace Lesson_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string creatingExampleDir = @"C:\Users\windo\exampleDir";
+
+            Directory.CreateDirectory(creatingExampleDir);
+
+            string FileText = "Something";
+
+            string creatingAFile = Path.Combine(creatingExampleDir, "AlmostFirstFile.txt");
+
+            File.WriteAllText(creatingAFile, FileText);
         }
     }
 }
